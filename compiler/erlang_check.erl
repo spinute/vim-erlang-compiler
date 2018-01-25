@@ -245,7 +245,7 @@ check_module(File) ->
                           Root
                   end,
 
-    Defs = [warn_export_all,
+    Defs = [%warn_export_all,
             warn_export_vars,
             warn_shadow_vars,
             warn_obsolete_guard,
